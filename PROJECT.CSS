@@ -1,0 +1,213 @@
+.project-image{
+    height: 40vh;
+    width: 50vh;
+}
+.projects{
+    margin-left:20px;
+    margin-top: 20px;
+}
+.home-page-heading{
+    font-size: 30px;
+    font-family: "Roboto";
+    color:#183b56;
+    font-weight: bold;
+    padding-left: 80px;
+}
+.home-page-para{
+   font-family: "Roboto";
+   color: #616e7c;  
+
+}
+.vr-image{
+    height: 100px;
+    width: 150px;
+    padding-left:20px;
+}
+.diwali-image{
+    height: 100px;
+    width: 160px;
+    padding-left: 30px;
+}
+.food-image{
+    height: 110px;
+    width: 150px;
+    padding-left:20px;
+    padding-top: 20px;
+}
+.news-image{
+    height: 110px;
+    width: 160px;
+    padding-left: 30px;
+    padding-top:20px;
+}
+.container-ad{
+  background-image:url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 70vh;
+  padding:0px;
+  margin: 20px;
+}
+.card-ad{
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding:20px;
+}
+.heading-ad{
+    color:#5752ab;
+    font-family: "Roboto";
+    font-weight:bold ;
+    font-size: 33px;
+}
+.par-ad{
+   color:#323f4b;
+   font-family: "Roboto";
+   font-size: 23px;
+
+}
+.btn1-ad{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin:15px;
+    height: 30px;
+  width: 100px;
+
+}
+.btn2-ad{
+    background-color:#5752ab ;
+    border-radius: 10px;
+    border:0px;
+    text-align: center;
+    margin:15px;
+    height: 30px;
+  width: 100px;
+}
+.diwali-topsection {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    width:70vh;
+    background-size: cover;
+    margin:20px;
+  }
+  .main-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+  }
+  .bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+    width:70vh;
+    margin:20px;
+  }
+  .card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+  }
+  .diwali-card-image {
+    height: 64px;
+    width: 64px;
+  }
+  .diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .cd {
+    height: 95vh;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    width: 70vh;
+    margin:20px;
+
+}
+
+.cd2 {
+    background-color: #f6c56e;
+    height: 280px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding:10px;
+}
+
+.main-head {
+    font-family: "bree serif";
+    color: #323f4b;
+     padding: 20px; 
+     margin:10px;
+
+}
+
+.paragrap {
+    color: #323f4b;
+    font-weight: bold;
+    width: 500px;
+     padding: 20px; 
+}
+
+.butt {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 40px;
+    width: 110px;
+    margin: 20px;
+}
+
+.bg-container-hot{
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+  height: 90vh;
+  width: 70vh;
+  background-size: cover;
+  padding:10px;
+  margin-left: 20px;
+}
+.hotel-card{
+  background-color: #000000e6;
+  color:#ffffff;
+  border-radius: 15px;
+  padding:10px;
+  margin:20px;
+}
+.hotel-heading{
+  font-family: "Bree Serif";
+  font-weight: 400px;
+  font-size: 35px;
+}
+.para-hot{
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: normal;
+
+}
+.price-hot{
+  font-family: "Roboto";
+  font-weight:700px ;
+  font-size: 35px;
+}
+.button-hot{
+  background-color:#ffffff;
+  width:130px;
+  height: 40px;
+  padding:5px;
+  margin:10px;
+  border-radius: 15px;
+  border:0px;
+
+}

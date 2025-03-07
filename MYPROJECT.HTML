@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="PROJECT.CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionhomepage">
+        <div class="projects">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="project-image" />
+            <h1 class=home-page-heading>My Projects</h1>
+            <p class=home-page-para>These are a fews of my static website projects that I have <br />
+                devoloped using HTML,css and bootstrap <br /></p>
+        </div>
+        <div class="d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="vr-image" onclick="display('sectionadvance')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="diwali-image" onclick="display('sectiondiwali')">
+        </div>
+        <div class="d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="food-image" onclick="display('sectionfoodorder')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png" class="news-image" onclick="display('sectionhotelbooking')">
+        </div>
+    </div>
+     <div id="sectionadvance">
+      <div class="container-ad d-flex flex-column justify-content-end">
+        <div class="card-ad">
+            <h1 class="heading-ad">Advanced Technologies</h1>
+            <p class="par-ad">Machinery and equipment developed from the application of scientific knowledge.</p>
+            <div class="d-flex flex-row">
+                <button class="btn1-ad">Learn More</button>
+                <button class="btn2-ad" onclick="display('sectionhomepage')">Back</button>
+            </div>
+        </div>
+      </div>
+     </div>
+     <div id="sectiondiwali">
+        <div class="diwali-topsection">
+            <h1 class="main-heading">Celebrate diwali with your friends</h1>
+            </div>
+            <div class="bottom-section">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="card-item">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png"
+                      class="diwali-card-image"
+                    />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                  </div>
+          
+                  <div class="card-item">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png"
+                      class="diwali-card-image"
+                    />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="card-item">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png"
+                      class="diwali-card-image"
+                    />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                  </div>
+          
+                  <div class="card-item">
+                    <img
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png"
+                      class="diwali-card-image"
+                    />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                  </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">Back</button>
+              </div>
+     </div>
+     <div id="sectionfoodorder">
+      <div class="cd d-flex flex-column justify-content-end">
+        <div class="cd2">
+            <h1 class="main head">Happy Meals</h1>
+            <p class="paragrap">Discover the best foods over the 1000 restaurants</p>
+            <button class="butt" onclick="display('sectionhomepage')">Back</button>
+        </div>
+        </div>
+     </div>
+
+     <div id="sectionhotelbooking">
+      
+    <div class="bg-container-hot d-flex flex-column justify-content-end">
+        <div class=hotel-card>
+      <h1 class=hotel-heading>Royal Grand Hotel</h1>
+      <p class=para-hot>R.K Beach Vishakhapatnam</p>
+      <p class=price-hot>1200/-</p>
+      </div>
+      <center><button class="button-hot" onclick="display('sectionhomepage')">Back</button></center>
+
+
+</div>
+     </div>
+
+       <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script> 
+</body>
+</html>
